@@ -7,13 +7,13 @@ class LoginPg < SitePrism::Page
     
 
     def logar(usuario, senha)
-       campo_login.set usuario
+        campo_login.set usuario
         campo_senha.set senha
         click_on('Entrar')
     end
 
     def msgSucesso
-    sucesso.text
+        sucesso.text
     end
 
 end

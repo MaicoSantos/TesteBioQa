@@ -5,8 +5,3 @@ Before do |scenario|
   @Login.logar('mizuharamaico@gmail.com', 'Bionexo2018')
   expect(@Login.msgSucesso).to have_content("Autenticado com sucesso.")
 end
-
-
-After do
-
-end
